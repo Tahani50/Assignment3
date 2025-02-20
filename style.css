@@ -1,0 +1,90 @@
+body{
+    background: linear-gradient(to right, rgb(65, 80, 95) 0.00%, rgb(36, 37, 38) 100.00%);
+}
+
+form{
+   width: 300px;
+   margin: 2rem auto 0 auto;
+   padding: 20px;
+   background-color: whitesmoke;
+   border-radius: 5px;
+   font-size: 14px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+legend{
+    color: #0f2027;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#myForm button{
+    padding: 10px;
+    background-color: rgb(41, 57, 194);
+    color: white;
+    font-size: large;
+    width: 100%;
+    margin-top: 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+#myForm div{
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border: solid 1px gray;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px;
+    font-size: 12px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    height: 13px;
+}
+
+
+#userBtn{
+    padding: 10px;
+    background-color: rgb(41, 57, 194);
+    color: white;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    width: 10%;
+}
+
+table{
+    border-collapse: collapse;
+    border-radius: 5px;
+    margin: 25px 0;
+    min-width: 400px;
+    background-color: whitesmoke;
+}
+
+td{
+    padding: 12px 15px;
+}
+
+tr{
+    border-bottom: 1px solid gray;
+}
+
+#sec2{
+    display: grid;
+    place-items: center;  
+}
+
+.gap{
+    height: 100px;
+}
+ 

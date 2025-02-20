@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+        <h1>User Registration Form</h1>
+   
+    <section>
+        <form id="myForm">
+          
+                <legend>Porsonal Info</legend>
+                <br>
+    
+                <div>
+                    <label for="name">User Name:</label>
+                    <input type="text" id="name" placeholder="Enter your name">
+                    <span id="nameError" class="error"></span>
+                </div>
+                
+                <div>
+                    <label for="email">User Email:</label>
+                    <input type="text" id="email" placeholder="Enter your email">
+                    <span id="emailError" class="error"></span>
+                </div>
+                
+                <div>
+                    <label for="pass">User Password:</label>
+                    <input type="password" id="pass" placeholder="Enter your password">
+                    <span id="passError" class="error"></span>
+                </div>
+                
+                
+                <button type="submit">Submit</button>
+            
+        </form>
+    </section>
+    <div class="gap"></div>
+    <h1>Fetch Users details</h1>
+    <section id="sec2">
+        <table>
+            <button onclick="getUsers()" id="userBtn">Fetch Users</button>
+            <tbody id="userdata">
+            </tbody>
+        </table>
+        <br>
+    </section>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
